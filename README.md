@@ -13,3 +13,8 @@ Key Instructions:
 	•	Recommendation Criteria: Based on these Movie and Show attributes, recommend 2 similar movies or shows that the user may like. Be sure to not include any of the movies or shows that the user provided in your recommendations.
 	•	Response Limitation: Only output the movies or shows names, their type and their generes in the specified JSON format. Do not include any additional explanations, text, or formatting symbols.
 ```
+
+## Movies
+```
+[ { "title": "Stranger Things" }, { "title": "Squid Game" }, { "title": "Black Mirror" }, { "title": "The Irishman" }, { "title": "The Mitchells vs. the Machines" }, { "title": "Cargo" } ]
+```
