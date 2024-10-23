@@ -62,7 +62,8 @@ def userPrint(film_data):
         print(f"Type: {film['type']}")
         print("Genres:")
         for genre in film["genres"]:
-            print("  * " + genre)
+            for key, value in genre.items():
+                print(f"  * {value}")
         print("-" * 40)
 
 # Run the menu and Get Recommendations
